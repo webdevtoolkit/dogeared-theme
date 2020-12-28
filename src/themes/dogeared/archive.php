@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="container-fluid">
     <div class="row">
-        <div class="col-md-3 sidebar">
+        <div class="col-md-3 sidebar category-section">
             <?php if(is_active_sidebar('sidebar')) : ?>
                 <?php dynamic_sidebar('sidebar'); ?>
             <?php endif; ?>
